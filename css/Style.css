@@ -1,0 +1,137 @@
+#facts_container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  justify-content: center;
+    
+}
+
+@media (max-width: 800px) {
+    #facts_container {
+      flex-direction: column;
+       
+    }
+  
+    #facts_container > .facts {
+        background-color: #E8E8E8;
+        
+        width:50%;
+        height:125px;
+        padding: 10px;
+        font-size: 30px;
+      }
+      .awards {
+        
+        width: 33%;
+        display:block;
+     
+    }
+    
+    
+    .number{
+        font-family:'Red Hat Display';
+        font-size: 50px;
+        margin:0%;
+        padding:10px;
+        font-weight: 10px;
+    }
+    
+}
+@media(max-width:1300px ) and (min-width:800px){
+    #facts_container{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+      justify-content: center;
+        
+    }
+    #facts_container > .facts {
+        background-color: #E8E8E8;
+        
+        width:25%;
+        height:125px;
+        padding: 10px;
+        font-size: 30px;
+      }
+}
+#container{
+    width:100%;
+    margin:0 auto;
+}
+@media (min-width:2500px){
+    
+    #container{
+        width:70%;
+        text-align:center;
+        margin:0 auto;
+    }
+}
+@media (max-width:400px )
+{
+    #facts_container > .facts {
+        background-color: #E8E8E8;
+        
+        width:80%;
+        height:125px;
+        padding: 10px;
+        font-size: 30px;
+      }
+      .awards {
+        
+        width: 33%;
+        display:block;
+     
+    }
+    
+    
+    .number{
+        font-family:'Red Hat Display';
+        font-size: 50px;
+        margin:0%;
+        padding:10px;
+        font-weight: 10px;
+    }
+}
+
+    
+#fact_title_name{
+    text-align: center;
+    padding:10px;
+    font-family:'Red Hat Display';
+    font-size: 40px;
+        
+}
+
+#facts_container > .facts {
+    background-color: #E8E8E8;
+    margin: 2%;
+    padding: 30px;
+    font-size: 30px;
+  }
+  .facts{
+      width:20%;
+      height:120px;
+      border-radius: 10px;
+  }
+.awards {
+    float: left;
+    width: 33%;
+    margin:10px;
+}
+
+
+.number{
+    font-family:'Red Hat Display';
+    font-size: 50px;
+    margin:0%;
+    color:#0066A1;
+   
+    font-weight: 10px;
+}
+.factname{
+    font-family:'Red Hat Display';
+    font-size: 25px;
+    margin:0%;
+    
+    font-weight: 10px;
+}
